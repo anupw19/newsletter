@@ -39,7 +39,7 @@ const url = "https://us14.api.mailchimp.com/3.0/lists/"+listId;
 
 const options = {
     method:"POSt",
-    auth:"anupw19:dbb5011dcd1dfcc3ee4fdbf2bc855270-us14"
+    auth:"anupw19:04feab3b86c317f918cb4fa37dbfa961-us14"
 }
 
 const request = https.request(url,options,function(response){
@@ -75,7 +75,7 @@ app.listen(port,function(req,res){
 
 
 // Email API KEY
-// dbb5011dcd1dfcc3ee4fdbf2bc855270-us14
+// 04feab3b86c317f918cb4fa37dbfa961-us14
 
 // list Id 
 // e0c06c1580
